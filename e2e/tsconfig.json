@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "allowJs": false,
+    "incremental": false,
+    "types": ["node", "@playwright/test"]
+  },
+  "include": ["./**/*.ts", "../src/lib/request-types.ts", "../src/lib/response-types.ts"]
+}
